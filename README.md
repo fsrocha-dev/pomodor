@@ -1,7 +1,7 @@
 <h1 align="center">
 	<br>
 	<br>
-	<img width="320" src="https://github.com/fsrocha-dev/pomodor/blob/main/media/screenshot.png" alt="Pomodor">
+	<img width="320" src="https://github.com/fsrocha-dev/pomodor/blob/main/src/assets/icons/icon.png" alt="Pomodor">
 	<br>
 	<br>
 	<br>
