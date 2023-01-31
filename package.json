@@ -1,6 +1,6 @@
 {
   "name": "pomodor",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Pomodoro timer CLI",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

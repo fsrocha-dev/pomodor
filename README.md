@@ -13,7 +13,7 @@
 [![License](https://badgen.net/npm/license/pomodor)](https://www.npmjs.com/package/pomodor)
 [![npm dependents](https://badgen.net/npm/dependents/pomodor)](https://www.npmjs.com/package/pomodor?activeTab=dependents)
 
-![](media/screenshot.png)
+![](https://github.com/fsrocha-dev/pomodor/blob/main/media/screenshot.png)
 
 <br>
 
