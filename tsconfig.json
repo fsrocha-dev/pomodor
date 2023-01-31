@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "outDir": "./dist",
+  },
+  "ts-node": {
+    "esm": true
+  }
+}
