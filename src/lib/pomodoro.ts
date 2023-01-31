@@ -1,10 +1,10 @@
 import figlet from 'figlet'
 import gradient from 'gradient-string';
 //Helpers
-import countdownMintutes from '../helper/countdown.js';
-import progressBar from '../helper/progressBar.js';
-import soundAlert from '../helper/soundAlert.js';
-import notificationAlert from '../helper/notificationAlert.js';
+import countdownMintutes from '../helper/countdown';
+import progressBar from '../helper/progressBar';
+import soundAlert from '../helper/soundAlert';
+import notificationAlert from '../helper/notificationAlert';
 //Types
 import IPomodoroOptions from '../types/pomodoroTypes';
 

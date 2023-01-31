@@ -1,9 +1,9 @@
+#!/usr/bin/env node
 import figlet from 'figlet'
 import { Command } from 'commander';
-import pomodoro from './lib/pomodoro.js';
-import pkg from '../package.json' assert { type: "json" };
+import pomodoro from './src/lib/pomodoro';
 
-import IPomodoroOptions from './types/pomodoroTypes';
+import IPomodoroOptions from './src/types/pomodoroTypes';
 
 const program = new Command();
 
@@ -23,12 +23,12 @@ enum PomodoroCycles {
   break = 5,
 }
 
-console.log(figlet.textSync("PomodoroMe"));
+console.log(figlet.textSync("Pomodor"));
 
 program
-  .name(pkg.name)
-  .description(pkg.description)
-  .version(pkg.version);
+  .name('pomodor')
+  .description('Pomodoro timer CLI')
+  .version('1.0.0');
 
 program
   .option('-c, --cycle <value>', 'Inform a value to start the pomodoro, you can use the following: work, break, coffee or inform the time in minutes ex: 10', 'work')
