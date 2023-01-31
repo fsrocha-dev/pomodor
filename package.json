@@ -1,17 +1,25 @@
 {
   "name": "pomodorome",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "Pomodoro timer CLI",
   "main": "dist/src/index.js",
   "types": "dist/src/index.d.ts",
   "type": "module",
   "scripts": {
+    "start": "node ./dist/src/index.js",
     "build": "tsc --declaration",
     "dev": "nodemon --watch \"src//\" --exec \"ts-node src/index.ts\" -e ts"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "bin": {
+    "pomodorome": "./dist/src/index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/fsrocha-dev/pomodoro-me/issues"
+  },
+  "homepage": "https://github.com/fsrocha-dev/pomodoro-me",
+  "keywords": ["CLI", "pomodoro", "timer"],
+  "author": "Frank Rocha",
+  "license": "MIT",
   "devDependencies": {
     "@types/figlet": "^1.5.5",
     "@types/gradient-string": "^1.1.2",
